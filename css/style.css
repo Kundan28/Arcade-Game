@@ -1,0 +1,84 @@
+
+body {
+    text-align: center;
+    font-family: 'Stalinist One', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-repeat: round;
+}
+
+h1{
+  font-size: 35px;
+}
+
+canvas {
+  position: relative;
+}
+/*css for heart and gem counter*/
+.counter {
+    width: 808px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.items {
+    float: left;
+    width: 20%;
+}
+
+.lives,
+.gems {
+    vertical-align: top;
+}
+
+/*css for all the three buttons*/
+button {
+  position: absolute;
+  color: white;
+  font: 18pt cursive;
+  text-align: center;
+  z-index: 5;
+  box-shadow: 5px 5px 5px black;
+  width: 175px;
+  height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.easy{
+  top: 350px;
+  left: 24%;
+  background: #2E930E;
+}
+.easy:hover{
+  background: #28D44A;
+}
+.easy.active {
+  background: #28D44A;
+}
+
+.medium {
+  top: 350px;
+  left: 44%;
+  background: #D4AC0D;
+}
+.medium:hover{
+  background: #CBC531;
+}
+.medium.active {
+  background: #CBC531;
+}
+
+.hard {
+  top: 350px;
+  left: 64%;
+  background: #C12B2B;
+}
+.hard:hover{
+  background: #FF0000;
+}
+.hard.active {
+  background: #FF0000;
+}
